@@ -18,6 +18,15 @@
         android:gravity="center"
         android:text="@string/dummy_content" />
 
+    <ImageView
+        android:src="@drawable/beetle"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        />
+
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
     <FrameLayout android:layout_width="match_parent"
